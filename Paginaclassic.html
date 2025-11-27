@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Perfil — Ricard Daniel Salazar Hernandez</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="description" content="Página de perfil simple creada con Tailwind CSS" />
+    <style>
+        .circular {
+        border-radius: 50%;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gray-50 flex items-center justify-center p-6">
+  <main class="max-w-3xl w-full">
+    <section class="bg-white shadow-xl rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-8">
+      <!-- Avatar -->
+      <div class="flex-shrink-0">
+        <div class="w-36 h-36 rounded-full bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 flex items-center justify-center text-white text-3xl font-bold shadow-lg">
+          <img src="https://imgs.search.brave.com/q6RkFiZaPjQjF6Y3aZ2XuA4rH-zaJ4C9E3_Qe7_2ZwI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90by1ncmF0aXMv/Y29sbGFqZS1hbnRl/Y2VkZW50ZXMtcHJv/Z3JhbWFjaW9uXzIz/LTIxNDk5MDE3Nzku/anBnP3NlbXQ9YWlz/X2luY29taW5nJnc9/NzQwJnE9ODA" alt="Foto de perfil" class="circular"/>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="flex-1 text-center md:text-left">
+        <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900">Ricard Daniel Salazar Hernandez</h1>
+        <p class="mt-2 text-indigo-600 font-semibold">Carrera: Desarrollo de Software</p>
+        <p class="mt-4 text-gray-600">Aprender nuevas tecnologias y lenguajes de programación.</p>
+
+
+      </div>
+    </section>
+
+    <footer class="mt-6 text-center text-xs text-gray-400">Página creada con Tailwind CSS · Personaliza el contenido para ajustarlo a tu perfil</footer>
+  </main>
+</body>
+</html>
